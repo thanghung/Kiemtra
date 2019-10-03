@@ -9,4 +9,16 @@
 6. Chỉnh sửa phương thức Keu() của lớp Meo và Cho
    * Lớp Meo: Hiển thị chuỗi:" Meo meo Tôi là mèo lông màu"+MauLong
    * Lớp Cho: Hiển thị chuỗi:" Gâu gâu Tôi là chó lông màu"+MauLong
+   * Thêm 2 buttom đến form Ứng dụng
+   - Butom 1: name: Meo, Text: Mèo
+   - Buttom 2: name: Cho, Text: Chó 
+   - Hàm Meo_Click
+          Meo cat = new Meo();
+                cat.Keu();
+                MessageBox.Show(cat.m + tbmeo.Text);
+    - Hàm Cho_Click
+           Cho dog = new Cho();
+            dog.Keu();
+            MessageBox.Show(dog.c + tbcho.Text);
+            
 7. Cập nhật lên Github, cập nhật Readme
