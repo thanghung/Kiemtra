@@ -8,6 +8,9 @@ namespace Kiemtaketthuocmon
 {
     class DongVat
     {
-        public virtual void Keu() { }
+        public virtual void Keu()
+        {
+
+        }
     }
 }

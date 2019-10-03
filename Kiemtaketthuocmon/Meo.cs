@@ -8,10 +8,10 @@ namespace Kiemtaketthuocmon
 {
     class Meo : DongVat
     {
-        public string meo;
+        public string m = "Meo Meo: Toi la Meo long mau: ";
         public void keu()
         {
-            meo = "Meo Meo: Toi la Meo long mau: ";
+            m = "Meo Meo: Toi la Meo long mau: ";
         }
     }
 }

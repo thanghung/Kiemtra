@@ -29,14 +29,14 @@ namespace Kiemtaketthuocmon
         {
             Meo cat = new Meo();
             cat.Keu();
-            MessageBox.Show(cat.meo + tbmeo.Text);
+            MessageBox.Show(cat.m + tbmeo.Text);
         }
 
         private void Cho_Click(object sender, RoutedEventArgs e)
         {
             Cho dog = new Cho();
             dog.Keu();
-            MessageBox.Show(dog.cho + tbcho.Text);
+            MessageBox.Show(dog.c + tbcho.Text);
         }
     }
 }
