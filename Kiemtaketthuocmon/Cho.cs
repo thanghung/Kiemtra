@@ -8,11 +8,10 @@ namespace Kiemtaketthuocmon
 {
     class Cho : DongVat
     {
-        public string gau;
+        public string cho;
         public void keu()
         {
-            for (int i = 1; i < 10; i++)
-                gau += "gau ";
+                cho = "Gau Gau: Toi la Cho long mau:  ";
         }
     }
 }

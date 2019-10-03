@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="meo" Content="Meo" HorizontalAlignment="Left" Margin="99,251,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" FontSize="20" Click="Meo_Click" />
+        <Button x:Name="cho" Content="Cho" HorizontalAlignment="Left" Margin="547,251,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" FontSize="20" Click="Cho_Click" />
+        <TextBox x:Name="tbmeo" HorizontalAlignment="Left" Height="23" Margin="99,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbcho" HorizontalAlignment="Left" Height="23" Margin="547,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="257,44,0,0" TextWrapping="Wrap" Text="Nhap Mau Long" VerticalAlignment="Top" FontWeight="Bold" FontSize="24"/>
+
     </Grid>
 </Window>

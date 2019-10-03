@@ -11,8 +11,7 @@ namespace Kiemtaketthuocmon
         public string meo;
         public void keu()
         {
-            for(int i=1; i<10; i++)
-            meo += "meo ";
+            meo = "Meo Meo: Toi la Meo long mau: ";
         }
     }
 }
